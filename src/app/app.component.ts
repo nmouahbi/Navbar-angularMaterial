@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+  // displayNavbar: string;
+  isVisible: boolean = true;
+
+
+  ngOnInit() {
+    // this.displayNavbar = '1';
+  }
 }
