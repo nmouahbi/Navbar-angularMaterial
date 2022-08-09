@@ -1,0 +1,14 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+#carouselDarkVariant {
+    width: fit-content;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+#imagecss 
+{
+    width: fit-content;
+    height: fit-content;
+}

@@ -29,7 +29,7 @@
               
             ],
             "scripts": [
-              
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -103,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "eb45d48e-a239-4150-a83f-e0b1c9339446"
   }
 }

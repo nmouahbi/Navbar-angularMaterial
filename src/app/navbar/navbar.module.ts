@@ -12,7 +12,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-
 @NgModule({
   declarations: [
     HomeComponent,
@@ -26,8 +25,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatIconModule,
     MatSidenavModule,
     MatButtonModule,
-    NgbModule
-
+    NgbModule,
   ],
   exports: [
     HomeComponent,
