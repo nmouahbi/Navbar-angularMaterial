@@ -1,10 +1,23 @@
+
 #container {
-    width: 100%;
-    height: 100%;
-    margin: 5px 5px 5px 5px;
-    background-color: #130d0d;
+    margin: 100px;
+    padding: 10px;
+
 }
 #container2 {
-    margin: 5px 5px 5px 5px;
-    background : linear-gradient(to bottom, #eee8e8 0%, #3c1f8f 100%);
+    
+    margin: 20px;
+    background: linear-gradient(to left, #0d81ee , #15144b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 10px 10px 10px 10px #000;
+}
+
+#price {
+   
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    border-radius: 60%;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #000;
 }

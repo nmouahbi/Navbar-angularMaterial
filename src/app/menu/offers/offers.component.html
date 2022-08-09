@@ -6,7 +6,7 @@
         <img mat-card-image style="width: 80px; height: 80px"
           [src]="product.image" alt="{{product.altetxt}}">
           <p>{{product.description}}</p>
-          <mat-card-subtitle>{{product.price}} $</mat-card-subtitle>
+          <mat-card-subtitle id="price">{{product.price}} $</mat-card-subtitle>
             <mat-card-actions>
                 <button mat-raised-button color="primary" routerLink="#">{{product.button}}</button>
             </mat-card-actions>
