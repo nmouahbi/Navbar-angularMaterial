@@ -11,7 +11,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import {MatCardModule} from '@angular/material/card';
 
+import {MatGridListModule} from '@angular/material/grid-list';
 @NgModule({
   declarations: [
     HomeComponent,
@@ -26,6 +28,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatSidenavModule,
     MatButtonModule,
     NgbModule,
+    MatCardModule,
+    MatGridListModule
   ],
   exports: [
     HomeComponent,

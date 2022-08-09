@@ -1,0 +1,10 @@
+#container {
+    width: 100%;
+    height: 100%;
+    margin: 5px 5px 5px 5px;
+    background-color: #130d0d;
+}
+#container2 {
+    margin: 5px 5px 5px 5px;
+    background : linear-gradient(to bottom, #eee8e8 0%, #3c1f8f 100%);
+}

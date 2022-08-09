@@ -1,1 +1,14 @@
-<p>prices works!</p>
+<mat-card class="mcard">
+    <mat-card-content *ngFor=" let product of products" >
+    <mat-card-title> {{product.name}} </mat-card-title>
+    <img src="{{product.image}}" alt="{{product.altetxt}}">
+    <mat-card-content>
+        <p>{{product.description}}</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button color="primary" routerLink="#">{{product.button}}</button>
+        </mat-card-actions>
+ 
+
+    </mat-card-content>
+</mat-card>

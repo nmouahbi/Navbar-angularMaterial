@@ -15,8 +15,8 @@ import { OffersComponent } from './menu/offers/offers.component';
 import { PricesComponent } from './menu/prices/prices.component';
 import { ContactusComponent } from './menu/contactus/contactus.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
-
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -38,7 +38,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MatIconModule,
     MatSidenavModule,
     MatButtonModule,
-    NgbModule
+    NgbModule,
+    MatGridListModule,
+    MatCardModule,
  
 
   ],
