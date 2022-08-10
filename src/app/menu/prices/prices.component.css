@@ -1,3 +1,5 @@
 .mcard {
-    display: inline-block !important
+    display: inline-block !important;
+    overflow: hidden !important;
+    scrollbar-width: none;
 }
